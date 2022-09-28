@@ -1,0 +1,53 @@
+*{
+    color: white;
+    background-color: black;
+    
+
+}
+*:hover{
+background-color: rgba(107, 99, 99, 0);
+color: black;
+}
+#submit:hover{
+    background-color:  rgb(255, 255, 0);
+    border-radius: 20px;
+}
+#submit{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+table{
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+table:hover{
+    background-color: gold;
+  
+}
+
+td:hover{
+    color: cyan;
+    background-color: red;
+}
+.same:hover{
+    color: cyan;
+    background-color: red;
+}
+.center{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    border:2px solid red;
+    border-radius:20px;
+    width: 90vw;
+}
+.h:hover{
+   
+    border-radius:20px;
+    background-color: cyan;
+    text-align: center;
+}

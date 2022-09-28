@@ -1,0 +1,51 @@
+h1{
+    align-items: center;
+    margin-left: 40vw;
+    margin-top: 0vh;
+    padding-top: 5vh;
+    text-decoration: black line-through;
+    letter-spacing: 0.4vw;
+    line-height: 0.44vw;
+    font-size: 5vw;
+font-family: 'Courier New', Courier, monospace;
+border: 6px solid rgb(216, 21, 21);
+width: 40vw;
+height: 3vh;
+text-align: center;
+padding-bottom: 11px;
+
+
+
+
+
+}
+
+h1:hover{
+background-color: yellow;
+color: black;
+border-radius: 40px;
+border-bottom: 9px;
+box-shadow: white -4px;
+cursor: pointer;
+text-shadow: -aliceblue;
+transition: 2;
+transition-duration: 4s;
+border-bottom-right-radius: 40px;
+
+transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+*{
+    background-color: black;
+    color: white;
+}p:hover{
+    background-color: aqua;
+    color: blue;
+    border-radius: 100px;
+    text-align: center;
+    border-top-right-radius: 50px;
+    box-shadow:-4px cornsilk;
+    content: icon;
+    box-sizing: border-box;
+    pointer-events: visible;
+    transition: 1s;
+}

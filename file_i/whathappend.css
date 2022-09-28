@@ -1,0 +1,35 @@
+ul{
+    background-color: rgb(184, 174, 181);
+    color: rgb(39, 31, 31);
+    border: 1px solid black;
+    width: 26.9vw;
+    height: 28.0vh;
+   
+}
+ol{
+    background-color: rgb(184, 174, 181);
+    color: rgb(39, 31, 31);
+    border: 1px solid black;
+    width: 26.9vw;
+    height: 25.5vw;
+   
+}
+li{
+    border: 1px solid black;
+    padding: 1vw;
+    padding-left: 9vw;
+}
+b{
+    /* border: 1px solid black;
+    padding-left: 3.5vw;
+    border-right: rgb(184, 174, 181); */
+    padding-left: 1rem;
+}
+
+#uni{
+    border-top: 2px solid black;
+}
+
+#black{
+    border-bottom:2px  solid black;
+}

@@ -1,0 +1,38 @@
+
+a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+font-weight: 40px;
+}
+
+nav {
+word-spacing: 10vw;
+text-align: center;
+}
+#mathContentStart{
+    text-align: center;
+}
+.footerFinal{
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+ 
+}
+#anchertag{
+   color: white;
+  font-style: italic;
+
+}
+#last{
+    word-spacing: 50vw;
+    
+}
+#unique{
+font-size: 20px;
+}
+#mathContentStart{
+  font-size: 60px;
+ font-style: italic;
+}

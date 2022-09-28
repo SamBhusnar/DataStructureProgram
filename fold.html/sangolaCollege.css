@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+* {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 44px;
+
+}
+
+h1:hover {
+    color: red;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 44px;
+    border: 2px solid black;
+    border-radius: 44px;
+    background-color: gold;
+    font-style: inherit;
+    margin-right: 40px;
+    margin-top: 400px;
+    margin-right: 40px;
+
+}

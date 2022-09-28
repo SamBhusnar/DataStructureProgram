@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>GET and POST REQUEST</h1>
+    <h2>GET</h2>
+    <form action="http://localhost:3000" method="get">
+        <label for="meal"> meal</label>
+        <input type="text" name="meal" id="meal">
+        <label for="weight"> weight</label>
+        <input type="number" name="weight" id="weight">
+        <button>Submit</button>
+    </form>
+    <hr>
+    <h2>POST</h2>
+    <form action="http://localhost:3000/tacos" method="post">
+        <label for="meal1">meal1</label>
+        <input type="text" name="meal" id="meal1">
+        <label for="weight1">weight1</label>
+        <input type="number" name="weight" id="weight">
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

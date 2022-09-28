@@ -1,0 +1,17 @@
+div{
+    background-image: url("https://www.spacex.com/static/images/backgrounds-2022/transporter-4/post-launch/Transporter-4_homepage_desktop.webp");
+height: 100vh;
+width: 100vw;
+background-size:contain;
+background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    margin-top: 40%
+    ;
+}
+*{
+    margin: 0%;
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+h1{
+    background-color: red;
+    text-align: center;
+    color: aqua;
+    border: 2px solid black;
+    border-radius:50rem ;
+    width: 50%;
+    margin-left:10rem;
+    
+}

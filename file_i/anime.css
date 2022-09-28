@@ -1,0 +1,71 @@
+*{
+    background-color:  black;
+    color: white;
+}
+h1{
+    text-align:  center;
+    margin-left: 40vw;
+    border: 2px solid yellow;
+    width: 20vw;
+    border-radius:40px ;   
+}
+.red, .pink, .yellow, .orange{
+    border-radius: 200vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: white;
+    border: 4px solid white;
+    cursor:pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: 0.1ms;
+}
+.red:hover{
+    border-radius: 200vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: royalblue;
+    border: 4px solid royalblue;
+    cursor:pointer;
+    box-sizing: border-box;
+    transition: 0.1ms;
+    color: black;
+    text-align: center;
+
+    padding-bottom: 10wh;
+transform: rotateX(360deg);
+}
+.pink:hover{
+    border-radius: 200vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: red;
+    border: 4px solid red;
+    cursor:pointer;
+    box-sizing: border-box;
+    transition: 0.1ms;
+transform: rotateY(360deg);
+}
+ .yellow:hover{
+     
+    border-radius: 200vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: green;
+    border: 4px solid green;
+    cursor:pointer;
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: rotateZ(360deg);
+}
+.orange:hover{
+    border-radius: 200vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: cyan;
+    border: 4px solid cyan;
+    cursor:pointer;
+    box-sizing: border-box;
+    transition: 0.1ms;
+    transform: rotate3d(44px);  
+}
