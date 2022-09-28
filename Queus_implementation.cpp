@@ -67,13 +67,14 @@ int Queue::remove(Queue *q)
 void Queue::display(Queue *q)
 {
     int i;
-    q->front = -1;
-    for (i = q->rear; i >= 0; i--)
+    int save = q->front;
+    // q->front = -1; // this statement introduce  an bug
+    for (i = q->rear; i > save; i--)
     {
         ++q->front;
         cout << q->item[q->front] << '\n';
     }
-       q->front = -1;
+    q->front = save;
 }
 int main()
 {
@@ -115,3 +116,5 @@ int main()
 
     return 0;
 }
+
+// this program have so much logical error if you've think in depth
