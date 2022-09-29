@@ -1,3 +1,4 @@
+// samadhan bhusnar and ranjit deshmukh
 #include <iostream>
 using namespace std;
 #define max 5
