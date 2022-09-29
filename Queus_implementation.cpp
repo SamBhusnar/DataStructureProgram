@@ -1,3 +1,4 @@
+// author : Sam Bhusnar & Ranjit Deskmukh
 #include <iostream>
 using namespace std;
 #define max 5
@@ -67,14 +68,17 @@ int Queue::remove(Queue *q)
 void Queue::display(Queue *q)
 {
     int i;
-    int save = q->front;
-    // q->front = -1; // this statement introduce  an bug
-    for (i = q->rear; i > save; i--)
-    {
-        ++q->front;
-        cout << q->item[q->front] << '\n';
+    // int save = q->front;
+    // // q->front = -1; // this statement introduce  an bug
+    // for (i = q->rear; i > save; i--)
+    // {
+    //     ++q->front;
+    //     cout << q->item[q->front] << '\n';
+    // }
+    // q->front = save;
+    for(i=q->front+1;i<=q->rear;i++){
+        cout<<"\n"<<q->item[i];
     }
-    q->front = save;
 }
 int main()
 {
