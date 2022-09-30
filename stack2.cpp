@@ -68,7 +68,7 @@ int main()
                     j++;
                 }
             }
-            obj.pop(p);
+            ch = obj.pop(p); // alert may be bug occur because of this line
         }
         else
         {
