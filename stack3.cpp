@@ -61,7 +61,7 @@ int main()
         rev[j] = ch;
         j++;
     }
-    rev[j] = '\0'; // manual end of rev array;
+    rev[j] = '\0'; // manual end of rev character array;
     cout << rev;
     return 0;
 }
