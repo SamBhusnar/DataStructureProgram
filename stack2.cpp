@@ -1,4 +1,5 @@
 // samadhan bhusnar and ranjit deshmukh
+// infix expression to postfix expression
 #include <iostream>
 using namespace std;
 #define max 20
