@@ -1,7 +1,6 @@
 // Ranjit Deshmukh and Samadhan Bhusnar
 // reverse entered string using stack
 #include <iostream>
-#include <string.h>
 using namespace std;
 #define max 20
 class stack
