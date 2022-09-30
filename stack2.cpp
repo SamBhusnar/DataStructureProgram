@@ -1,3 +1,4 @@
+// samadhan bhusnar and ranjit deshmukh
 #include <iostream>
 using namespace std;
 #define max 20
@@ -6,11 +7,8 @@ class stack
 public:
     int item[max], top;
     void create(stack *);
-    void isfull(stack *);
-    void isempty(stack *);
     int pop(stack *);
     void push(stack *, int);
-    void display(stack *);
 };
 void stack::create(stack *p)
 {
@@ -53,21 +51,16 @@ int main()
     cin >> infix;
     while (infix[i] != '\0')
     {
-        if (infix[i] == 'a' || infix[i] == 'b' || infix[i] == 'c' || infix[i] == 'd' || infix[i] == 'e' || infix[i] == 'x' || infix[i] == 'y' || infix[i] == 'm' || infix[i] == 'n' || infix[i] == 'p' || infix[i] == 'q' || infix[i] == 'r')
-        {
-            postfix[j] = infix[i];
-            j++;
-        }
-        else if (infix[i] == '(' || infix[i] == '$' || infix[i] == '*' || infix[i] == '/' || infix[i] == '-' || infix[i] == '+' || infix[i] == '^')
+        if (infix[i] == '(' || infix[i] == '$' || infix[i] == '*' || infix[i] == '/' || infix[i] == '-' || infix[i] == '+' || infix[i] == '^')
         {
 
             obj.push(p, infix[i]);
         }
-        else
-        // (infix[i] == ')')
+        else if (infix[i] == ')')
         {
             while (p->item[p->top] != '(')
             {
+
                 ch = obj.pop(p);
                 if (ch != '(')
                 {
@@ -75,6 +68,12 @@ int main()
                     j++;
                 }
             }
+            obj.pop(p);
+        }
+        else
+        {
+            postfix[j] = infix[i];
+            j++;
         }
         i++;
     }
