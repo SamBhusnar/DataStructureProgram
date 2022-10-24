@@ -4,6 +4,11 @@
     "typeinfo": "c",
     "conio.h": "c",
     "iostream": "cpp",
-    "windows.h": "c"
+    "windows.h": "c",
+    "array": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "vector": "cpp",
+    "ostream": "cpp"
   }
 }
