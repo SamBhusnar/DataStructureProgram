@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int glo = 50;
 int main()
@@ -33,5 +34,13 @@ int main()
     // cout << same << endl;
     // cout << equal << endl;
     // cout << "Sangola college , sangola";
+    int a = 7;
+    int b = 88, c = 999;
+    int d = 10101;
+    cout << "With setw is :" << setw(5) << a << endl;
+    cout << "With setw is :" << setw(5) << b << endl;
+    cout << "With setw is :" << setw(5) << c << endl;
+    cout << "With setw is :" << setw(5) << d << endl;
+
     return 0;
 }
