@@ -9,6 +9,7 @@
     "deque": "cpp",
     "list": "cpp",
     "vector": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iomanip": "cpp"
   }
 }
